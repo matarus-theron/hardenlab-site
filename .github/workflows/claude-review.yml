@@ -18,8 +18,9 @@ concurrency:
 
 jobs:
   review:
-    # Same-repository branches only: no secrets for PRs from forks.
-    if: github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft
+    # Same-repository branches only: no secrets for PRs from forks. Branches claude/* are skipped:
+    # Claude wrote them, so Codex reviews them (same model reviewing itself adds little; owner 2026-11-14).
+    if: github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft && !startsWith(github.head_ref, 'claude/')
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
