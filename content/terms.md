@@ -1,17 +1,17 @@
 ---
-title: AGB
+title: AGB (Entwurf)
+description: Entwurf der Bedingungen für den geplanten Verkauf von HardenLab Local Pack an Unternehmen und Selbständige.
 ---
 
-# Allgemeine Geschäftsbedingungen
+Stand: 15. November 2026
 
-Stand: 8. April 2026
+> **Noch nicht erhältlich.** Aktuell sind weder Bestellungen noch Vorbestellungen möglich. Diese Verkaufsbedingungen sind ein Entwurf für den späteren Verkaufsstart und müssen rechtlich geprüft werden. Die endgültigen Bedingungen werden vor Verkaufsstart veröffentlicht.
 
 Diese Allgemeinen Geschäftsbedingungen regeln das Angebot, den Verkauf und die Nutzung digitaler Produkte von HardenLab.
 
 ## 1. Anbieter
 
 **HardenLab**  
-Thorsten Jägle  
 Rupperswil, Schweiz  
 E-Mail: info@hardenlab.ch  
 Website: https://www.hardenlab.ch/
@@ -20,7 +20,7 @@ Website: https://www.hardenlab.ch/
 
 Diese Allgemeinen Geschäftsbedingungen gelten für die Nutzung dieser Website sowie für Bestellungen, Bereitstellung und Nutzung digitaler Produkte von HardenLab.
 
-Sofern nicht ausdrücklich anders angegeben, richten sich die Angebote von HardenLab in erster Linie an Unternehmen, Selbständige und professionelle Anwender.
+Die Produktangebote richten sich ausschließlich an Unternehmen und Selbständige zur beruflichen Nutzung in der eigenen Organisation. Verbraucherkäufe sind ausgeschlossen.
 
 ## 3. Angebotene Produkte
 
@@ -46,8 +46,8 @@ Sofern nicht ausdrücklich anders angegeben, sind nicht Bestandteil des Produkts
 Sofern auf der Produktseite nichts anderes angegeben ist, ist der aktuelle vorgesehene Scope des HardenLab Local Pack insbesondere auf Folgendes beschränkt:
 
 - Windows 11 Pro und Enterprise
-- primärer Zielstand: Windows 11 25H2
-- Windows 11 24H2 weiterhin unterstützt
+- geplanter primärer Zielstand: Windows 11 26H2
+- Windows 11 25H2 als weiterer geplanter Zielstand
 - Sprachen: de-DE und en-US
 - lokale Bereitstellung
 - Umgebungen ohne Active Directory

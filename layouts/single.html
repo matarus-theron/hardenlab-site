@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+  <main id="content" class="hl-document">
+    <header class="hl-page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+    <div class="content">{{ .Content }}</div>
+  </main>
+{{ end }}

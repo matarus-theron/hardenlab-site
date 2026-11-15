@@ -1,0 +1,70 @@
+/* Brand styling extends Hextra; navigation, theme and language controls stay native. */
+:root { --hl-accent: #036c9e; --hl-text: #152330; --hl-muted: #52616f; --hl-surface: #f3f7fa; --hl-border: #d4e1e9; --hl-status-bg: #fff5db; --hl-status-text: #80520c; }
+.dark { --hl-accent: #65d3ff; --hl-text: #edf5fa; --hl-muted: #a9bac9; --hl-surface: #151e27; --hl-border: #2c3c4b; --hl-status-bg: #332b19; --hl-status-text: #f5d18a; }
+.hl-landing, .hl-document { color: var(--hl-text); margin-inline: auto; padding: 3.5rem 1.5rem; }
+.hl-landing { max-width: 1180px; }
+.hl-document { max-width: 880px; min-height: 65vh; overflow-wrap: anywhere; hyphens: auto; }
+.hl-document-wide { max-width: 1100px; }
+.hl-page-header { margin-bottom: 2rem; }
+.hl-page-header h1 { font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 750; line-height: 1.15; letter-spacing: -.035em; }
+.hl-page-header p { color: var(--hl-muted); margin-top: 1rem; font-size: 1.1rem; line-height: 1.7; }
+.hl-document .content h2 { margin-top: 2rem; }
+.hl-document .content p, .hl-document .content li { line-height: 1.75; }
+.hl-hero { display: grid; grid-template-columns: 1.15fr 1fr; gap: 4rem; align-items: center; padding: 1rem 0 3.5rem; }
+.hl-status { display: inline-flex; gap: .55rem; align-items: center; padding: .35rem .7rem; border-radius: 2rem; color: var(--hl-status-text); background: var(--hl-status-bg); font-size: .8rem; font-weight: 650; }
+.hl-status > span { width: .45rem; height: .45rem; border-radius: 50%; background: currentColor; flex: none; }
+.hl-eyebrow { color: var(--hl-accent); font-size: .8rem; letter-spacing: .12em; font-weight: 700; text-transform: uppercase; margin: 1.5rem 0 .8rem; }
+.hl-hero h1 { font-size: clamp(2.4rem, 4.2vw, 3.8rem); font-weight: 750; letter-spacing: -.045em; line-height: 1.08; text-wrap: balance; }
+.hl-lead { color: var(--hl-muted); font-size: 1.1rem; line-height: 1.8; margin-top: 1.4rem; }
+.hl-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; margin: 1.7rem 0 1rem; }
+a.hl-button { display: inline-flex; align-items: center; justify-content: center; gap: .8rem; padding: .8rem 1.15rem; min-height: 48px; border: 1px solid transparent; border-radius: .6rem; color: #072030; background: #65d3ff; font-weight: 700; text-decoration: none; line-height: 1.45; }
+a.hl-button-secondary { color: var(--hl-text); background: transparent; border-color: var(--hl-border); }
+a.hl-button:hover { background: #a2e5ff; color: #072030; }
+a.hl-button-secondary:hover { background: var(--hl-surface); color: var(--hl-text); border-color: var(--hl-accent); }
+.hl-button:focus-visible, .hl-text-link:focus-visible { outline: 3px solid var(--hl-accent); outline-offset: 4px; }
+.hl-note, .content .hl-note { color: var(--hl-muted); font-size: .85rem; line-height: 1.65; }
+.hl-preview { padding: 1.6rem; border: 1px solid var(--hl-border); border-radius: 1rem; background: var(--hl-surface); box-shadow: 0 12px 48px #039bd511; }
+.hl-preview-top { display: flex; gap: .7rem; align-items: center; font-weight: 700; margin-bottom: 1.6rem; }
+.hl-version { margin-left: .4rem; color: var(--hl-muted); font-size: .8rem; font-weight: 400; }
+.hl-preview h2 { font-size: 1.1rem; font-weight: 650; margin-bottom: .35rem; }
+.hl-preview-row { display: flex; align-items: flex-start; gap: .9rem; padding: .9rem 0; border-bottom: 1px solid var(--hl-border); }
+.hl-check { color: var(--hl-accent); font-weight: 700; }
+.hl-preview-row strong { font-size: .95rem; font-weight: 650; }
+.hl-preview-row p { font-size: .85rem; color: var(--hl-muted); line-height: 1.6; margin-top: .2rem; }
+.hl-preview-bottom { font-size: .8rem; color: var(--hl-muted); margin-top: 1rem; }
+.hl-facts { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); border-block: 1px solid var(--hl-border); padding: 1.5rem 0; gap: 1.5rem; }
+.hl-facts strong { display: block; font-size: .95rem; font-weight: 650; }
+.hl-facts span { display: block; color: var(--hl-muted); font-size: .85rem; margin-top: .25rem; line-height: 1.6; }
+.hl-section { padding: 3rem 0; }
+.hl-section h2, .hl-contact-panel h2 { font-size: clamp(1.5rem,3vw,2rem); font-weight: 700; letter-spacing: -.025em; line-height: 1.2; }
+.hl-section-intro { color: var(--hl-muted); margin: .8rem 0 1.5rem; max-width: 740px; line-height: 1.75; }
+.hl-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; margin: 1.5rem 0; list-style: none; padding: 0; }
+.hl-card { padding: 1.6rem; border: 1px solid var(--hl-border); border-radius: .8rem; background: var(--hl-surface); }
+.hl-card h3 { font-size: 1.15rem; font-weight: 650; margin: .8rem 0 .6rem; }
+.hl-card p { font-size: .95rem; color: var(--hl-muted); line-height: 1.7; }
+.hl-step-number { font-size: .8rem; color: var(--hl-accent); font-weight: 700; letter-spacing: .08em; }
+a.hl-text-link { color: var(--hl-accent); text-decoration: underline; text-underline-offset: .25em; font-size: .95rem; }
+.hl-contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 2rem; border: 1px solid var(--hl-border); border-radius: 1rem; margin-bottom: 1rem; }
+.hl-contact-panel p { color: var(--hl-muted); line-height: 1.7; margin-top: .7rem; max-width: 650px; }
+.hl-contact-panel .hl-button { flex-shrink: 0; }
+.content .hl-pricing h2 { border: 0; margin: 0 0 .5rem; padding: 0; font-size: 1.3rem; line-height: 1.4; }
+.content .hl-pricing p { margin: 0 0 .7rem; }
+.content .hl-pricing > .hl-section-intro { margin-top: 1rem; }
+.content .hl-pricing .hl-status { margin-bottom: 0; }
+.hl-pricing .hl-price-card { display: flex; flex-direction: column; }
+.content .hl-pricing .hl-price { color: var(--hl-text); font-size: 2.5rem; font-weight: 750; line-height: 1.3; margin: 1rem 0 .2rem; }
+.hl-price span { font-size: .9rem; font-weight: 500; }
+.content .hl-pricing .hl-plan-status { margin-top: auto; padding-top: 1.4rem; font-size: .8rem; color: var(--hl-status-text); font-weight: 650; }
+@media (max-width: 800px) {
+  .hl-hero { grid-template-columns: 1fr; gap: 2rem; padding-bottom: 2rem; }
+  .hl-grid { grid-template-columns: 1fr; }
+  .hl-contact-panel { flex-direction: column; align-items: flex-start; }
+  .hl-section { padding: 2rem 0; }
+}
+@media (max-width: 480px) {
+  .hl-landing, .hl-document { padding: 2rem 1.25rem; }
+  .hl-facts { grid-template-columns: 1fr; gap: 1rem; }
+  .hl-preview, .hl-card, .hl-contact-panel { padding: 1.25rem; }
+  .hl-actions { align-items: stretch; flex-direction: column; }
+  .hl-actions .hl-text-link { padding: .5rem 0; }
+}

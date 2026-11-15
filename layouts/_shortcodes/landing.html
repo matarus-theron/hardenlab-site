@@ -1,0 +1,32 @@
+{{ $t := index site.Data.marketing .Page.Language.Lang }}
+<section class="hl-hero" aria-labelledby="hero-heading">
+  <div>
+    <p class="hl-status"><span aria-hidden="true"></span>{{ $t.status }}</p>
+    <p class="hl-eyebrow">HardenLab Local Pack</p>
+    <h1 id="hero-heading">{{ $t.heading }}</h1>
+    <p class="hl-lead">{{ $t.intro }}</p>
+    <div class="hl-actions">
+      <a class="hl-button" href="{{ "buy/" | relLangURL }}">{{ $t.pricingLink }} <span aria-hidden="true">↗</span></a>
+      <a class="hl-button hl-button-secondary" href="{{ "product/" | relLangURL }}">{{ $t.productLink }}</a>
+    </div>
+    <p class="hl-note">{{ $t.availability }}</p>
+  </div>
+  <div class="hl-preview" role="group" aria-labelledby="preview-heading">
+    <div class="hl-preview-top"><img src="{{ "icon-light.svg" | relURL }}" width="34" height="36" alt="" /><span>Local Pack <span class="hl-version">v1</span></span></div>
+    <h2 id="preview-heading">{{ $t.previewHeading }}</h2>
+    <p class="hl-note">{{ $t.previewNote }}</p>
+    {{ range $t.features }}
+      <div class="hl-preview-row"><span class="hl-check" aria-hidden="true">✓</span><div><strong>{{ .title }}</strong><p>{{ .text }}</p></div></div>
+    {{ end }}
+    <p class="hl-preview-bottom">{{ $t.previewBottom }}</p>
+  </div>
+</section>
+<section class="hl-facts" aria-label="{{ $t.factsLabel }}">{{ range $t.facts }}<p><strong>{{ .title }}</strong><span>{{ .text }}</span></p>{{ end }}</section>
+<section class="hl-section" aria-labelledby="process-heading">
+  <p class="hl-eyebrow">{{ $t.processLabel }}</p>
+  <h2 id="process-heading">{{ $t.processHeading }}</h2>
+  <p class="hl-section-intro">{{ $t.processIntro }}</p>
+  <ol class="hl-grid hl-steps">{{ range $i, $step := $t.steps }}<li class="hl-card"><span class="hl-step-number" aria-hidden="true">0{{ add $i 1 }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></li>{{ end }}</ol>
+  <a class="hl-text-link" href="{{ "get-started/" | relLangURL }}">{{ $t.stepsLink }} <span aria-hidden="true">→</span></a>
+</section>
+<section class="hl-contact-panel" aria-labelledby="contact-heading"><div><h2 id="contact-heading">{{ $t.contactHeading }}</h2><p>{{ $t.contactText }}</p></div><a class="hl-button" href="mailto:info@hardenlab.ch">{{ $t.contactLink }} <span aria-hidden="true">↗</span></a></section>

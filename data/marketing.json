@@ -1,0 +1,144 @@
+{
+  "de": {
+    "status": "Noch nicht erhältlich",
+    "heading": "Windows absichern. Lokal und nachvollziehbar.",
+    "intro": "Ein Paket für die Sicherheitseinstellungen kleiner Unternehmen: HardenLab Local Pack bündelt grundlegende Schutzrichtlinien für Windows 11. Für lokal verwaltete PCs, ohne Active Directory oder Intune.",
+    "pricingLink": "Preise & Verfügbarkeit",
+    "productLink": "Produkt kennenlernen",
+    "availability": "In Vorbereitung · Nur für Unternehmen und Selbständige · Kein Verkauf oder Vorbestellen möglich",
+    "previewHeading": "Vier Bereiche. Ein klarer Umfang.",
+    "previewNote": "Schematische Produktübersicht – keine Software-Oberfläche.",
+    "features": [
+      {
+        "title": "Microsoft Defender",
+        "text": "Grundlegende Richtlinien für den integrierten Virenschutz."
+      },
+      {
+        "title": "Windows-Firewall",
+        "text": "Eine definierte Basis für die Netzwerkabsicherung."
+      },
+      {
+        "title": "UAC & LSA",
+        "text": "Einstellungen für Administratorabfragen und den Schutz der Anmeldung."
+      },
+      {
+        "title": "Windows Update",
+        "text": "Richtlinien für Windows-Updates."
+      }
+    ],
+    "previewBottom": "Geplanter Kernumfang v1 · Lokale Windows-Richtlinien",
+    "factsLabel": "Produkt auf einen Blick",
+    "facts": [
+      {
+        "title": "Windows 11 Pro & Enterprise",
+        "text": "Geplant: 26H2 und 25H2 · de-DE und en-US"
+      },
+      {
+        "title": "Für kleine Unternehmen",
+        "text": "Einzelgeräte und Arbeitsgruppen ohne zentrale Verwaltung"
+      },
+      {
+        "title": "Einmalkauf geplant",
+        "text": "Drei Varianten für bis zu 3, 10 oder 25 Geräte"
+      }
+    ],
+    "processLabel": "Der vorgesehene Ablauf",
+    "processHeading": "Vorbereiten. Anwenden. Prüfen.",
+    "processIntro": "Du brauchst lokale Administratorrechte und jemanden, der Backups und Wiederherstellung beherrscht. Auch ohne eigene IT-Abteilung ist ein Pilotgerät vor dem Einsatz im Betrieb wichtig.",
+    "steps": [
+      {
+        "title": "Vorbereiten",
+        "text": "Windows-Version prüfen, Backup erstellen, BitLocker-Schlüssel sichern und einen Wiederherstellungsweg festlegen."
+      },
+      {
+        "title": "Lokal anwenden",
+        "text": "Den freigegebenen HardenLab-Installer als Administrator auf einem Pilotgerät starten. Kein AD- oder MDM-Dienst nötig."
+      },
+      {
+        "title": "Funktionen prüfen",
+        "text": "Fachanwendungen, Drucker, NAS, Freigaben und Fernzugriff testen. Erst danach weitere Geräte einbeziehen."
+      }
+    ],
+    "stepsLink": "Voraussetzungen und Wiederherstellung ansehen",
+    "contactHeading": "Passt HardenLab zu deiner Umgebung?",
+    "contactText": "Beschreibe kurz deine Windows-Versionen, die Gerätezahl und wie du die Geräte verwaltest. Bitte keine Lizenzschlüssel, Passwörter oder vertraulichen Protokolle senden.",
+    "contactLink": "Frage per E-Mail stellen",
+    "pricingIntro": "HardenLab Local Pack ist noch nicht erhältlich. Die folgenden Varianten und Preise sind geplant. Ein Termin für den Verkaufsstart steht noch nicht fest.",
+    "devices": "Bis zu %d Geräte",
+    "oneTime": "Geplanter Einmalpreis",
+    "planIncludes": "Gleicher Kernumfang in allen Varianten. Nutzung innerhalb deiner eigenen Organisation.",
+    "priceNote": "Unverbindliche Preisvorschau in CHF. Endpreise, Steuerbehandlung, Lieferumfang und Bedingungen werden vor Verkaufsstart bestätigt. Hier sind weder Bestellungen noch Zahlungen möglich.",
+    "licenseLink": "Lizenzentwurf lesen"
+  },
+  "en": {
+    "status": "Not yet available",
+    "heading": "Harden Windows. Locally and transparently.",
+    "intro": "A security settings package for small businesses: HardenLab Local Pack brings together basic protection policies for Windows 11. For locally managed PCs, without Active Directory or Intune.",
+    "pricingLink": "Pricing & availability",
+    "productLink": "Explore the product",
+    "availability": "In preparation · Businesses and self-employed professionals only · No sales or pre-orders",
+    "previewHeading": "Four areas. A defined scope.",
+    "previewNote": "Schematic product overview — not a software interface.",
+    "features": [
+      {
+        "title": "Microsoft Defender",
+        "text": "Basic policies for the built-in antivirus protection."
+      },
+      {
+        "title": "Windows Firewall",
+        "text": "A defined starting point for network protection."
+      },
+      {
+        "title": "UAC & LSA",
+        "text": "Settings for administrator prompts and sign-in protection."
+      },
+      {
+        "title": "Windows Update",
+        "text": "Policies for Windows updates."
+      }
+    ],
+    "previewBottom": "Planned v1 core scope · Local Windows policies",
+    "factsLabel": "Product at a glance",
+    "facts": [
+      {
+        "title": "Windows 11 Pro & Enterprise",
+        "text": "Planned: 26H2 and 25H2 · de-DE and en-US"
+      },
+      {
+        "title": "For small businesses",
+        "text": "Standalone PCs and workgroups without central management"
+      },
+      {
+        "title": "One-time purchase planned",
+        "text": "Three tiers for up to 3, 10 or 25 devices"
+      }
+    ],
+    "processLabel": "The intended workflow",
+    "processHeading": "Prepare. Apply. Verify.",
+    "processIntro": "You need local administrator rights and someone who can handle backups and recovery. Even without an in-house IT team, testing on a pilot device is essential before business use.",
+    "steps": [
+      {
+        "title": "Prepare",
+        "text": "Check the Windows version, create a backup, secure the BitLocker recovery key and define a recovery procedure."
+      },
+      {
+        "title": "Apply locally",
+        "text": "Run the released HardenLab installer as an administrator on a pilot device. No AD or MDM service required."
+      },
+      {
+        "title": "Verify functionality",
+        "text": "Test business apps, printers, NAS, shares and remote access before including other devices."
+      }
+    ],
+    "stepsLink": "See prerequisites and recovery guidance",
+    "contactHeading": "Is HardenLab a fit for your environment?",
+    "contactText": "Tell us your Windows versions, device count and how you manage your PCs. Please do not send license keys, passwords or confidential logs.",
+    "contactLink": "Ask a question by email",
+    "pricingIntro": "HardenLab Local Pack is not yet available. The tiers and prices below are planned. A launch date has not been set.",
+    "devices": "Up to %d devices",
+    "oneTime": "Planned one-time price",
+    "planIncludes": "The same core scope in every tier. For use within your own organization.",
+    "priceNote": "Non-binding price preview in CHF. Final prices, tax treatment, deliverables and terms will be confirmed before launch. Orders and payments are not available here.",
+    "licenseLink": "Read the draft license"
+  }
+}

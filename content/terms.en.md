@@ -1,17 +1,17 @@
 ---
-title: Terms
+title: Terms (draft)
+description: Draft terms for the planned sale of HardenLab Local Pack to businesses and self-employed professionals.
 ---
 
-# Terms and Conditions
+Last updated: November 15, 2026
 
-Last updated: April 8, 2026
+> **Not yet available.** Orders and pre-orders are not currently possible. These sales terms are a draft for a future launch and require legal review. Final terms will be published before sales start.
 
 These Terms and Conditions govern the offer, sale, delivery, and use of digital products provided by HardenLab.
 
 ## 1. Provider
 
 **HardenLab**  
-Thorsten Jägle  
 Rupperswil, Switzerland  
 Email: info@hardenlab.ch  
 Website: https://www.hardenlab.ch/
@@ -20,7 +20,7 @@ Website: https://www.hardenlab.ch/
 
 These Terms and Conditions apply to the use of this website and to the ordering, delivery, and use of digital products offered by HardenLab.
 
-Unless explicitly stated otherwise, HardenLab’s offers are primarily intended for businesses, self-employed professionals, and professional users.
+Product offers are exclusively for businesses and self-employed professionals for business use within their own organization. Consumer purchases are excluded.
 
 ## 3. Products
 
@@ -46,8 +46,8 @@ Unless explicitly stated otherwise, the product does not include:
 Unless otherwise stated on the product page, the current intended scope of HardenLab Local Pack is limited in particular to:
 
 - Windows 11 Pro and Enterprise
-- primary target release: Windows 11 25H2
-- Windows 11 24H2 also supported
+- planned primary target release: Windows 11 26H2
+- Windows 11 25H2 as an additional planned target
 - languages: de-DE and en-US
 - local deployment
 - environments without Active Directory

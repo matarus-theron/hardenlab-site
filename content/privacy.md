@@ -1,10 +1,11 @@
 ---
 title: Datenschutzerklärung
+description: Informationen zur Datenbearbeitung auf der HardenLab-Website und bei Kontaktanfragen.
 ---
 
-# Datenschutzerklärung
+Stand: 15. November 2026
 
-Stand: 8. April 2026
+**Aktueller Stand:** Das Produkt ist noch nicht erhältlich. Derzeit geht es um Websitebesuche und Kontaktanfragen. Die unten beschriebenen Kauf-, Aktivierungs- und Downloadprozesse beziehen sich auf den geplanten Produktbetrieb und sind über diese Website noch nicht verfügbar. Die Angaben zu den tatsächlich eingesetzten Dienstleistern und Abläufen werden vor Verkaufsstart konkretisiert.
 
 Diese Datenschutzerklärung informiert darüber, wie HardenLab personenbezogene Daten im Zusammenhang mit dieser Website, Kontaktanfragen, digitalen Produktkäufen, Produktbereitstellung sowie Support bearbeitet.
 
@@ -13,7 +14,6 @@ Diese Datenschutzerklärung informiert darüber, wie HardenLab personenbezogene 
 Verantwortlich für die in dieser Datenschutzerklärung beschriebene Datenbearbeitung ist:
 
 **HardenLab**  
-Thorsten Jägle  
 Rupperswil, Schweiz  
 E-Mail: info@hardenlab.ch  
 Website: https://www.hardenlab.ch/

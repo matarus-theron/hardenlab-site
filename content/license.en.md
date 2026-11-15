@@ -1,206 +1,237 @@
 ---
-title: "Terms and Conditions"
+title: Product license (draft)
+description: Draft license terms for internal business use of HardenLab Local Pack.
 ---
 
-# Terms and Conditions
+**Version:** 0.7-draft\
+**Last updated:** November 15, 2026\
+**Licensor:** HardenLab, Rupperswil, Switzerland\
+**Contact:** info@hardenlab.ch
 
-Last updated: 2026-04-08
+> **Not yet available.** This license is a working draft for the planned launch, not a current purchase offer. Final terms will be published before sales start and require legal review.
 
-These Terms and Conditions govern the sale and use of digital products offered by HardenLab.
+## 1. Subject matter and definitions
 
-## 1. Provider
+This license governs the use of the software, scripts, configuration files, documentation and other components of **HardenLab Local Pack**, including all associated releases, updates, build artifacts and accompanying documents (together, the **product**).
 
-HardenLab  
-Thorsten Jägle  
-Rupperswil, Switzerland  
-Email: info@hardenlab.ch  
-Website: https://www.hardenlab.ch/
+Unless expressly agreed otherwise, the product is **not sold** but made available for use only under this license.
 
-## 2. Scope
+The **licensee** is the natural or legal person that has acquired the product through the official sales channel and is identified as the purchaser in the order confirmation.
 
-These Terms and Conditions apply to purchases of digital products and related digital deliverables offered through HardenLab.
+The **licensed organization** is the licensee's organization for whose internal use the product was acquired.
 
-Unless explicitly stated otherwise, HardenLab products are offered for business and professional use.
+## 2. Business use only
 
-## 3. Products
+This product is intended exclusively for businesses, self-employed professionals and other persons acquiring and using it in the course of their trade, profession or business activities.
 
-HardenLab currently offers digital Windows hardening products for small business environments.
+Consumer use is excluded. Consumer orders are not permitted. The licensor may reject, cancel or reverse such orders.
 
-The current main product is:
+## 3. Rights holder
 
-- **HardenLab Local Pack**
+All rights to the product, particularly copyrights and rights to scripts, configurations, package structures, build logic, documentation, product names, layouts and other components, remain entirely with the licensor.
 
-The HardenLab Local Pack is a digital hardening and policy package for small Windows environments without Active Directory. It is designed for local deployment and a conservative, supportable scope.
+Only the usage rights expressly set out in this license are granted. All other rights are reserved.
 
-Unless explicitly stated otherwise, the product does **not** include:
-- consulting services
-- custom engineering
-- on-site work
-- managed services
-- guaranteed compatibility with third-party software outside the stated support scope
+## 4. License type and scope
 
-## 4. Supported scope
+Unless a time-limited subscription is agreed, the license is granted for an **indefinite term**.
 
-Unless otherwise stated on the product page, the current intended scope of HardenLab Local Pack is limited to:
+The licensor grants the licensee a **non-exclusive, non-transferable, non-sublicensable** license for **internal use within the licensed organization**.
 
-- Windows 11 Pro and Enterprise
-- primary target: Windows 11 25H2
-- Windows 11 24H2 also supported
-- languages: de-DE and en-US
-- local deployment via LGPO.exe
-- environments without Active Directory
+Unless otherwise specified on the product page, in the order confirmation or in an individual agreement:
 
-The core baseline currently focuses on:
-- Microsoft Defender
-- Firewall
-- UAC / LSA-related settings
-- Windows Update
+- the license applies only to the **licensed organization**;
+- use is permitted only for **its own internal purposes**;
+- use by, for or on behalf of third parties is prohibited;
+- the license does not permit transfer to affiliated companies, customers, partners, IT service providers or other third parties;
+- the license covers only the acquired product scope and support scope;
+- use is permitted only on the number of devices covered by the **purchased tier**;
+- the **product page**, **purchased tier** and **order confirmation** determine the license scope.
 
-The following are outside the supported scope unless explicitly stated otherwise:
-- Active Directory / domain-based deployment
-- Domain Controllers
-- RDS environments
-- Windows Home
-- server products
-- Intune / MDM / Autopilot managed environments
-- zero-touch or centrally managed fleet rollout
-- Office / Microsoft 365 / Adobe hardening
-- production-critical specialty software outside the documented support scope
+The following tiers are intended for v1:
 
-## 5. License variants and pricing
+- **Solo:** up to **3 devices**;
+- **Team:** up to **10 devices**;
+- **Business:** up to **25 devices**.
 
-The product may be offered in multiple license variants. Current examples include:
+The number of concurrently active devices is decisive. Replacing a device, rather than adding one, does not count as an additional license unit if the replaced device is permanently taken out of service.
 
-- Solo: up to 3 devices
-- Team: up to 10 devices
-- Business: up to 25 devices
+For later tiers, upgrades or special agreements, the permitted device count follows the tier selected at purchase or a separate written agreement.
 
-Prices, included items, and any applicable taxes or charges are shown on the relevant product page or checkout page.
+## 5. Permitted use
 
-## 6. Contract formation
+Only the following is permitted:
 
-By placing an order, the customer submits an offer to purchase the selected product under these Terms and Conditions.
+- internal use of the product within the licensed organization;
+- execution of the supplied scripts and accompanying files on licensed target systems;
+- internal backup copies where required for deployment, backup or recovery;
+- internal documentation of product use.
 
-A contract is concluded when the order is accepted and payment is successfully processed through the checkout provider.
+## 6. Prohibited use
 
-The customer is responsible for reviewing the order before submission and correcting any input errors before completing checkout.
+Without the licensor's prior written consent, the following is prohibited in particular:
 
-## 7. Delivery
+- resale of the product;
+- transfer, rental, lending or other provision to third parties;
+- distribution through download portals, file sharing, forums, archives or public repositories;
+- use for customers, clients or third parties as part of managed services, consulting, outsourcing, administration or operations;
+- inclusion in the licensee's own product or offer;
+- removal, alteration or suppression of license, origin, build or identification information;
+- publication of source materials, in whole or in part;
+- sublicensing;
+- circumvention of technical or organizational protection mechanisms;
+- abusive multiple use beyond the acquired license scope.
 
-Products are delivered digitally.
+## 7. Changes and modifications
 
-Delivery may take place through one or more of the following methods:
-- download link
-- email
-- customer access page
-- license delivery workflow
-- time-limited download endpoint
+Changes to the product are permitted only for the licensee's own internal purposes and only where strictly necessary for technical use.
 
-The customer is responsible for providing a valid email address and for ensuring that delivery emails and download links can be received.
+The following is prohibited in particular:
 
-## 8. Customer responsibilities
+- distribution of modified versions;
+- distribution of derivative works;
+- use of modified versions as a customer product, service-provider package or reseller offer.
 
-Before deployment, the customer is responsible for:
+The licensor provides no support for modified, combined or otherwise altered versions unless otherwise agreed in writing.
 
-- verifying that the target system is within the documented support scope
-- reviewing the available documentation
-- testing first on a pilot device where appropriate
-- creating backups, snapshots, or other recovery options before applying changes
-- checking business-critical workflows and software compatibility in their own environment
+## 8. MSP, reseller and third-party customer use
 
-The customer remains responsible for the operation of their own systems and for verifying that the product is suitable for their intended use.
+Use of the product for multiple customers, clients or third-party sites, or as part of a managed-service, reseller, integrator or consulting offer, requires a separate written license from the licensor.
 
-## 9. No guarantee of universal compatibility
+A standard license for internal use includes **no** MSP, reseller or third-party customer use.
 
-HardenLab products are designed with a conservative scope, but system configurations and third-party software environments vary.
+## 9. License keys, activation and download access
 
-HardenLab does not guarantee universal compatibility with all hardware, software, security products, line-of-business applications, or customer-specific configurations.
+Where license keys, activation, download endpoints, build identifiers or comparable mechanisms are used, they serve only to control access in accordance with the contract.
 
-Statements on the website, in documentation, or in support communication do not create any warranty beyond the explicitly documented support scope.
+The licensee must not:
 
-## 10. Intellectual property and license
+- share license keys with third parties;
+- bypass activation or download mechanisms;
+- redistribute credentials or short-lived download links;
+- misuse technical access restrictions.
 
-All product content, scripts, packaging, documentation, structure, and related materials remain the intellectual property of HardenLab unless otherwise stated.
+The licensor may block or restrict access to downloads, updates or releases where there is reasonable suspicion of misuse or a license violation.
 
-The customer receives a limited, non-exclusive, non-transferable license to use the purchased product within the purchased license scope.
+## 10. Sales processing, payment providers and technical data processing
 
-Unless expressly permitted in writing, the customer may not:
-- resell the product
-- sublicense the product
-- redistribute the product
-- publish the product files
-- share download links or license materials with unauthorized third parties
-- remove copyright or attribution notices
+Sales and payment processing may be handled by an external payment provider. **Lemon Squeezy** is currently planned for this purpose and, if used, is intended to handle purchase-related payments as Merchant of Record.
 
-## 11. Updates and changes
+The applicable terms of the payment provider also apply to purchase processing.
 
-HardenLab may improve, revise, replace, or discontinue product components, delivery methods, documentation, or packaging at any time.
+License activation, license validation, download authorization and product downloads may involve server-side processing of technical data, particularly IP addresses, hostnames, license identifiers, instance IDs, bootstrapper versions, timestamps and product-related request metadata.
 
-Unless explicitly stated otherwise at the time of purchase, a purchase does not create an obligation to provide indefinite future updates, upgrades, or compatibility maintenance.
+Details are set out in the separate [Privacy Policy](/en/privacy/).
 
-## 12. Support
+## 11. Updates, releases and support
 
-Any support is limited to the scope explicitly stated on the website or product documentation.
+Acquisition of the product creates **no entitlement to support, maintenance, updates, upgrades or other ongoing services** unless expressly specified otherwise on the product page, in the order confirmation or in a separate agreement.
 
-Support does not include:
-- custom policy design
-- environment-specific consulting
-- forensic analysis
-- emergency incident response
-- compatibility work for unsupported third-party applications
-- administration of customer systems
+In particular, the licensor is **not obliged** to provide improvements, additions, individual explanations or assistance unless expressly promised.
 
-## 13. Refunds and cancellation
+Where support is provided, it applies only to:
 
-Due to the digital nature of the products, and because delivery or access may be granted immediately after purchase, refunds are generally not offered once delivery has taken place, unless:
-- required by mandatory law, or
-- expressly agreed by HardenLab in writing
+- official, unmodified builds;
+- the documented support scope;
+- approved target platforms and versions;
+- the deployment scope intended by the licensor.
 
-Unless explicitly stated otherwise, no voluntary right of cancellation or refund is granted after digital delivery.
+Support is excluded in particular for:
 
-## 14. Warranty disclaimer
+- modified builds;
+- unapproved use cases;
+- mixed or conflicting third-party configurations;
+- environments outside the documented product scope.
 
-To the maximum extent permitted by applicable law, HardenLab products are provided on an “as is” and “as available” basis.
+## 12. Third-party components
 
-HardenLab does not warrant that:
-- the product will be uninterrupted or error-free
-- the product will fit every customer environment
-- the product will achieve a specific compliance, security, or business outcome
-- the product will remain compatible with all present or future Microsoft, hardware, or third-party changes
+The product may contain or require third-party components, including external tools, binaries, policy templates or other dependencies.
 
-## 15. Limitation of liability
+Where third-party tools such as **LGPO.exe** are used, their use is governed exclusively by the relevant third party's license terms. They are **not** covered by this license.
 
-To the maximum extent permitted by applicable law, HardenLab shall not be liable for indirect, incidental, special, consequential, or economic damages, including but not limited to:
-- loss of profit
-- loss of revenue
-- loss of data
-- downtime
-- business interruption
-- recovery costs
-- third-party claims arising from customer deployment or use
+The licensee is responsible for checking whether use of such third-party components is permitted in its environment.
 
-The customer is responsible for testing, backup, staged rollout, and recovery planning before applying hardening changes.
+## 13. Deployment documentation
 
-Nothing in these Terms and Conditions excludes liability where exclusion is not permitted under applicable law.
+The licensee is responsible for:
 
-## 16. Privacy
+- backups and recovery options;
+- testing on non-production systems;
+- a pilot rollout before wider deployment;
+- testing business applications, network shares, printers, NAS, RDP and other operational dependencies;
+- compliance with internal approval and security processes.
 
-Information about the processing of personal data is provided in the Privacy Policy on this website.
+The licensor expressly recommends documented preliminary checks and use only within the approved scope before production deployment.
 
-## 17. Changes to these Terms
+## 14. Warranty
 
-HardenLab may update these Terms and Conditions from time to time.
+The product is supplied solely **in its state at the time of delivery**.
 
-The version published on the website at the time of purchase applies to that purchase, unless mandatory law requires otherwise.
+The licensor does not warrant that the product:
 
-## 18. Governing law and jurisdiction
+- is suitable for a particular individual case;
+- is compatible with all third-party software;
+- operates without disruption in every environment;
+- is suitable for special environments without adaptation.
 
-These Terms and Conditions are governed by Swiss law, excluding conflict of laws rules.
+Suitability for a particular purpose is **neither warranted nor implied**, to the extent permitted by law.
 
-Subject to mandatory law, the place of jurisdiction is the registered place of the provider in Switzerland.
+Where statutory warranty rights exist, the period for asserting them is limited to **12 months from delivery**, to the extent permitted by law.
 
-## 19. Contact
+To the extent permitted by law, further warranty claims are excluded or limited to the mandatory statutory minimum.
 
-For questions regarding these Terms and Conditions, please contact:
+## 15. Liability
 
-info@hardenlab.ch
+The licensor has unlimited liability only:
+
+- for damage caused intentionally or through gross negligence;
+- for injury to life, body or health;
+- where mandatory statutory liability applies.
+
+Where the licensor is liable for a breach of essential contractual obligations through ordinary negligence, liability is limited to damage typically foreseeable at contract formation. Essential obligations are those whose fulfillment enables proper performance of the contract and on whose compliance the licensee may regularly rely.
+
+Otherwise, the licensor's liability is excluded to the extent permitted by law.
+
+Liability for indirect damage, consequential damage, lost profit, business interruption, data loss or third-party claims is excluded to the extent permitted by law.
+
+Nothing in this license is intended to exclude liability for intent or gross negligence where such exclusion is prohibited by applicable law.
+
+## 16. Term and termination
+
+The license takes effect upon delivery and terminates automatically if the licensee breaches this license.
+
+If a breach can be remedied, termination is not automatic if the licensee remedies it within **14 days of written notice from the licensor**.
+
+Upon termination, the licensee must:
+
+- stop all use immediately;
+- delete all copies of the product unless statutory retention obligations apply;
+- prevent access to further internal copies.
+
+Claims already arising remain unaffected.
+
+## 17. Audit and evidence in cases of suspected misuse
+
+Where there are specific indications of unauthorized distribution, multiple use or other license misuse, the licensor may request reasonable information about the scope and nature of use.
+
+Such requests are limited to what is necessary to clarify the suspicion.
+
+## 18. No transfer of rights through repository availability
+
+Making files available in a private or public repository, on a sales platform, in a build pipeline, in documentation or as a download grants **no** rights beyond those expressly granted by this license.
+
+In particular, it does **not create an open-source license**.
+
+## 19. Governing law and jurisdiction
+
+Only substantive Swiss law applies, excluding conflict-of-laws rules.
+
+Mandatory provisions applicable at the licensee's place of establishment take precedence to the extent required by law. Otherwise, only Swiss law applies.
+
+To the extent permitted by law, jurisdiction is at the licensor's place of establishment in Switzerland.
+
+## 20. Final provisions
+
+If any provision is invalid or unenforceable, the remaining provisions remain effective.
+
+Changes and additions to this license require **written or electronic form, including email**, unless mandatory law requires a stricter form.

@@ -1,60 +1,26 @@
 ---
-title: HardenLab Local Pack
-description: Windows 11 hardening for small businesses without Active Directory.
+title: Pricing & availability
+description: Planned license tiers for HardenLab Local Pack. The product is not yet available.
+layout: marketing
 ---
 
-# HardenLab Local Pack
+{{< pricing >}}
 
-Windows 11 hardening for small businesses without Active Directory.
+## Planned for every tier
 
-## Pricing
+- Local hardening for Microsoft Defender, Windows Firewall, UAC/LSA and Windows Update.
+- Delivery through the official **HardenLab-Setup.exe** installer, with documentation covering prerequisites, pilot testing and recovery.
+- Internal use within your own organization on up to 3, 10 or 25 concurrently active devices.
+- A one-time purchase rather than a subscription. This does not provide an entitlement to unlimited updates or ongoing support.
 
-- **Solo** — up to 3 devices — **CHF 149**
-- **Team** — up to 10 devices — **CHF 399**
-- **Business** — up to 25 devices — **CHF 599**
+## To be confirmed before launch
 
-## What this product is
+Final deliverables and any included support or update period will be published here before sales start. No response times or included support hours are currently promised. Consulting, remote administration and emergency assistance are outside the intended standard product.
 
-HardenLab Local Pack is a digital Windows hardening and policy package for small local environments that are not managed through Active Directory.
+This offer is **exclusively for businesses and self-employed professionals for business use**. It is not intended for consumer purchases, service-provider use on customer systems or resale.
 
-It is designed for organizations that want a conservative, supportable baseline instead of a custom consulting project.
+## Is your environment a fit?
 
-## Current scope
+The planned scope is Windows 11 Pro and Enterprise in 26H2 and 25H2, de-DE and en-US, on locally managed standalone PCs or workgroups. Windows Home, servers, AD domains and Intune-/MDM-managed devices are outside the intended scope.
 
-- Windows 11 Pro and Enterprise
-- Primary target: Windows 11 25H2
-- Windows 11 24H2 also supported
-- Languages: de-DE and en-US
-- Local deployment via LGPO.exe
-- No Active Directory required
-
-## Core baseline
-
-- Microsoft Defender
-- Firewall
-- UAC / LSA-related settings
-- Windows Update
-
-## Before you buy
-
-This product is intended for **small local Windows environments without Active Directory**.
-
-Please do **not** buy it for:
-
-- domain environments
-- Intune / MDM-managed devices
-- server or RDS environments
-- zero-touch fleet rollout
-- production-critical special environments without a pilot test
-
-## Delivery model
-
-- one-time purchase
-- digital delivery
-- license scope based on device count
-- local deployment
-- conservative, supportable scope
-
-## Questions before purchase?
-
-Please contact us at [info@hardenlab.ch](mailto:info@hardenlab.ch).
+[Explore the product](/en/product/) · [Check prerequisites](/en/get-started/) · [Frequently asked questions](/en/faq/)

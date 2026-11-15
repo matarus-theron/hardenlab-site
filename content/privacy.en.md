@@ -1,10 +1,11 @@
 ---
 title: Privacy Policy
+description: Information about data processing on the HardenLab website and for contact requests.
 ---
 
-# Privacy Policy
+Last updated: November 15, 2026
 
-Last updated: April 8, 2026
+**Current status:** The product is not yet available. Current activities are website visits and contact requests. The purchase, activation and download processes described below refer to planned product operations and are not yet available through this website. Details of the providers and processes actually used will be specified before sales start.
 
 This Privacy Policy explains how HardenLab processes personal data in connection with this website, contact requests, digital product purchases, product delivery, and support.
 
@@ -13,7 +14,6 @@ This Privacy Policy explains how HardenLab processes personal data in connection
 The controller responsible for the data processing described in this Privacy Policy is:
 
 **HardenLab**  
-Thorsten Jägle  
 Rupperswil, Switzerland  
 Email: info@hardenlab.ch  
 Website: https://www.hardenlab.ch/

@@ -1,0 +1,19 @@
+{{ $t := index site.Data.marketing .Page.Language.Lang }}
+<div class="hl-pricing not-prose">
+  <p class="hl-status"><span aria-hidden="true"></span>{{ $t.status }}</p>
+  <p class="hl-section-intro">{{ $t.pricingIntro }}</p>
+  <div class="hl-grid">
+    {{ range site.Data.plans }}
+      <section class="hl-card hl-price-card" aria-labelledby="plan-{{ .name | urlize }}">
+        <h2 id="plan-{{ .name | urlize }}">{{ .name }}</h2>
+        <p class="hl-device-count">{{ printf $t.devices .devices }}</p>
+        <p class="hl-price"><span>CHF</span> {{ .price }}</p>
+        <p class="hl-note">{{ $t.oneTime }}</p>
+        <p>{{ $t.planIncludes }}</p>
+        <p class="hl-plan-status">{{ $t.status }}</p>
+      </section>
+    {{ end }}
+  </div>
+  <p class="hl-note">{{ $t.priceNote }}</p>
+  <div class="hl-actions"><a class="hl-button" href="mailto:info@hardenlab.ch">{{ $t.contactLink }} <span aria-hidden="true">↗</span></a><a class="hl-text-link" href="{{ "license/" | relLangURL }}">{{ $t.licenseLink }}</a></div>
+</div>

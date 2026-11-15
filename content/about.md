@@ -1,32 +1,27 @@
 ---
 title: Über HardenLab
-description: Wer hinter HardenLab steckt und warum dieses Produkt existiert.
+description: Lokale Windows-Sicherheit für kleine Unternehmen. Was HardenLab entwickelt und wie du Kontakt aufnehmen kannst.
 ---
 
-# Über HardenLab
+HardenLab entwickelt ein lokales Windows-Härtungspaket für kleine Unternehmen und Selbständige. Das Ziel: grundlegende Sicherheitseinstellungen nachvollziehbar bündeln, ohne Active Directory oder eine zentrale Geräteverwaltung vorauszusetzen.
 
-HardenLab entwickelt fokussierte Hardening-Produkte für kleine Windows-Umgebungen — ohne Overengineering, ohne Enterprise-Voraussetzungen.
+## Der aktuelle Stand
 
-## Warum HardenLab
+**HardenLab Local Pack ist in Vorbereitung und noch nicht erhältlich.** Auf dieser Website stellen wir den geplanten Umfang und die vorgesehenen Lizenzvarianten vor. Ein Verkaufsstart steht noch nicht fest.
 
-Viele Security-Empfehlungen setzen Active Directory, Intune oder eine interne IT-Abteilung voraus. Kleine Firmen haben das oft nicht — und werden trotzdem angegriffen.
+## Unser Ansatz
 
-HardenLab baut Produkte für genau diese Lücke: lokal einsetzbar, klar dokumentiert und mit einem Scope, der zu kleinen Umgebungen passt.
-
-## Wofür HardenLab steht
-
-- Klarer Scope statt Überversprechen
-- Fertiges Produkt statt Beratungsprojekt
-- Technische Ehrlichkeit vor Marketing
-- Konservative Baselines, die supportbar bleiben
-
-## Anbieter
-
-**HardenLab**  
-Thorsten Jägle  
-Rupperswil, Schweiz
+- Ein klar definierter Funktionsumfang und offen benannte Grenzen.
+- Lokale Anwendung mit Vorbereitung, Pilot-Test und Funktionstests.
+- Dokumentierte Wiederherstellung statt unklarer Eingriffe.
+- Keine Zusage vollständiger Sicherheit oder universeller Kompatibilität.
 
 ## Kontakt
 
-- E-Mail: [info@hardenlab.ch](mailto:info@hardenlab.ch)
-- Website: [https://www.hardenlab.ch/](https://www.hardenlab.ch/)
+**HardenLab** – Rupperswil, Schweiz
+
+Fragen zum Produkt oder zur Eignung deiner Umgebung: [info@hardenlab.ch](mailto:info@hardenlab.ch).
+
+Bitte keine Passwörter, Lizenzschlüssel oder vertraulichen Protokolle senden.
+
+[Produkt kennenlernen](/product/) · [Preise & Verfügbarkeit](/buy/)

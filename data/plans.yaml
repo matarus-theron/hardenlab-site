@@ -1,0 +1,9 @@
+- name: Solo
+  devices: 3
+  price: 149
+- name: Team
+  devices: 10
+  price: 399
+- name: Business
+  devices: 25
+  price: 599
