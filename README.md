@@ -9,7 +9,10 @@ Use Hugo Extended **0.156.0** and Go **1.26** (matching the Pages workflow).
 ```sh
 hugo server --disableFastRender
 hugo --gc --minify
+python3 scripts/check_site.py public
 ```
+
+The **Check website** workflow runs the build and internal link checks on pull requests targeting `main`. It checks that the German and English homepages render and reports missing pages and anchors. It can also be run manually from the Actions tab.
 
 German is the default language at `/`; English lives at `/en/`. Content uses Hugo's filename suffix model (`buy.md`, `buy.en.md`). The theme is pinned in `go.mod`.
 
